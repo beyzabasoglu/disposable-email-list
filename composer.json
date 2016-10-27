@@ -1,0 +1,17 @@
+{
+    "name": "contentfarm/disposable-email-list",
+    "description": "disposable email checker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Developers",
+            "email": "hi@contentfarm.io"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
