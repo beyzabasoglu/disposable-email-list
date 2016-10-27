@@ -8,7 +8,9 @@
             "email": "hi@contentfarm.io"
         }
     ],
-    "require": {},
+    "require": {
+        "league/flysystem": "*"
+    },
     "autoload": {
         "psr-4": {
             "": "src/"
