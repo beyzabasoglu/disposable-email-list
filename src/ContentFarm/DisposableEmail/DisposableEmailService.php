@@ -40,6 +40,11 @@ class DisposableEmailService
     public function isDisposableEmail()
     {
         $this->clear();
+
+        if (!filter_var($this->mail, FILTER_VALIDATE_EMAIL)) {
+            return false;
+        }
+
         $this->loadFiles();
         $this->findDomain();
 
